@@ -77,3 +77,6 @@ SELECT COUNT(*),
         END as "wits"
 FROM marvels
 GROUP BY wits;
+
+SELECT * FROM marvels
+WHERE strength =7 OR speed =7 OR fighting_Skills =7
